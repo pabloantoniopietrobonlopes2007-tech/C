@@ -1,0 +1,11 @@
+incluir sempre a biblioteca stdio.h
+includ <stdio.h>
+sempre colocar a função 'main'
+	int main(){}
+sempre colocar return 0;  ( entre as chaves do main)
+sempre colocar ; no fim duma linha d codigo
+em C nao tem string usa-se um array de caracteres
+true = 1 / false = 0
+quando especificar variaveis( "%x %y" ) tudo sera igual  
+numa conta com variáveis inteiras, por mais que o resultado seja dado como uma variável float ou double ela sera mostrada como inteiro
+	para arrumar coloca 1 dos números com virgul => (x.wd) ou explicite a natureja de um => area = ((B + b) * h) / (double)2;

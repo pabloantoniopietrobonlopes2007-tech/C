@@ -1,0 +1,72 @@
+include = inclui uma biblioteca
+	obs: biblioteca entre <>
+main = função principal
+return = numero de erros que deve retornar ao compilar o código
+	sempre colocar return 0;
+
+printf = mostra algo na saída
+// = comentário d linha simples
+/*
+comentário de varias linhas
+*/
+===============================================
+OBS: CONSTANTE
+#define NomeDaConstante AlorDaConstante
+	(declarada antes do int main)
+
+
+
+===============================================
+VARIAVEIS:int(d),char(c),float(f),double(fl) -> respectivos referentes %d, %c, %f, %fl, %s
+	declarar variável -> tipo_de_dado nome_da_variavel = valor
+% = especifica uma variável(usa sempre ele entre aspas e 
+	int x = 5 => print("idade igual a %d", x);
+	%d indica uma variável int/, x especifica a variável
+array [] = armazena mais de uma variável
+	tipo_de_dado nome[] = variáveis
+	obs: conjunto de caracteres = string => array de car == string
+bool(valor boleano) = pode ser verdade(1) ou falso(0)
+char(caractere)
+char[x] = recebe o valor de no máximo x caracteres(formando uma str)
+	char[x] = "";
+===============================================
+\n = quebra linha(colocado entre"")
+.numero(entre % e o tipo de dado numerico) = especifica o numero de números após a virgula
+if(se) = condição para executar 
+	if (condição){}
+else(senão) = outra alternativa para quando o if não e executado
+	else{}
+
+fgets(f = file/ get = recebe/ s = string) = recebe um valor de string
+
+scanf = le o dado inserido pelo usuário ate o primeiro espaço
+
+======================================================================================================================================
+
+array(1 linha): são estruturas de dados que armazenam uma coleção fixa de elementos do mesmo tipo em locais de memória contíguos (adjacentes).
+	O primeiro elemento é array[0], o segundo é array[1], e o último é array[tamanho - 1].
+	int numeros[5] = {10, 20, 30, 40, 50}; // Cria um array de 5 inteiros
+		declaração: array de inteiros(int), com 5 elementos([5]), numerados começando do 0
+		
+		'for(int i = 0; i < 5; i++) {
+    		printf("%d ", numeros[i]);
+		}
+
+=======================================================================================================================================
+
+Estruturas de repetição: executam blocos de código repetidamente enquanto uma condição for verdadeira. 
+Elas utilizam uma variável de controle (iniciada, testada e incrementada/decrementada) para determinar o número de iterações, interrompendo o loop quando a condição se torna falsa
+	while(enquanto): repete uma ação até que sua condição se torne falsa
+		Estrutura: for (inicialização; condição; incremento) { comandos }
+
+	do-while(fazer enquanto): mesmo que while, mas o comando é executado no minimo 1 vez, mesmo que a condição for falsa;
+		estrutura: do{comando}
+			   while(){}
+
+	for(para):
+
+For (Para): Ideal para quando o número de repetições é conhecido. Estrutura: for (inicialização; condição; incremento) { comandos }.
+While (Enquanto): Usado quando não se sabe exatamente quantas repetições ocorrerão. Verifica a condição antes de executar o bloco.
+Do-While (Repita): Semelhante ao while, mas garante a execução do bloco pelo menos uma vez, pois testa a condição no final. 
+
+
