@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1786445687 source:c:\users\pablo lopes\onedrive\desktop\programa«√o\c\codeblocks\exercicios ifsp\segundo_semestre\aula 4-8\as_duas_strings_sao_iguais\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
